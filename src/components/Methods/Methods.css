@@ -1,0 +1,24 @@
+.methods {
+  margin: 0 auto 100px;
+  width: 100%;
+}
+
+.methods__videos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.methods__video-container {
+
+}
+
+.methods__video-title {
+  
+}
+
+.methods__video {
+  width: 500px;
+  height: 400px;
+}

@@ -1,0 +1,31 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-family: 'Inter', Arial, sans-serif;
+  width: 1920px;
+}
+
+@media screen and (max-width: 1919px) {
+  .app {
+    width: 1400px;
+  }
+}
+
+@media screen and (max-width: 1550px) {
+  .app {
+    width: 1080px;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .app {
+    width: 920px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .app {
+    width: 100vw;
+  }
+}
