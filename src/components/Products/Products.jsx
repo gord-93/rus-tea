@@ -7,7 +7,9 @@ import backImg from '../../images/tea-sbor-images.svg';
 function Products() {
   return (
     <div className="products">
-      <p className="block-title block-title_colored_white">Наша продукция</p>
+      <a className='anchor' href="*" name="products">
+        <p className="block-title block-title_colored_white">Наша продукция</p>
+      </a>
       <div className="products__container">
         <div className="product">
           <img className="product__image" src={ivanTeaShop} alt="Иван-чай" />
