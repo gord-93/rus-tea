@@ -9,7 +9,7 @@ function Header() {
         <a href='#products' className='header__link'>Наша продукция</a>
         <a href='#methods' className='header__link'>Способы приготовления</a>
         <a href='#shop' className='header__link'>Где купить</a>
-        <a href='*' className='header__link'>Контакты</a>
+        <a href='#contacts' className='header__link'>Контакты</a>
       </div>
       <div className='header__burger'>
 

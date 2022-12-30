@@ -8,7 +8,7 @@ function Footer() {
       <img className='logo' src={logoImage} alt="логотип сила предков" />
       <div className='footer__contacts'>
         <p className='footer__links-title'>Менеджеры:</p>
-        <a className='footer__link' href="https://t.me/Zoya_Dmitrieva"><img className='footer__soc-icon' src={telegaIcon} alt="telegram" /> Зоя Дмитриева</a>
+        <a className='footer__link' href="https://t.me/Zoya_Dmitrieva" name="contacts"><img className='footer__soc-icon' src={telegaIcon} alt="telegram" /> Зоя Дмитриева</a>
         <a className='footer__link' href="https://t.me/KiloLoo"><img className='footer__soc-icon' src={telegaIcon} alt="telegram" /> Илья Дмитриев</a>
       </div>
     </footer>
